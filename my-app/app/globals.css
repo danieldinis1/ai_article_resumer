@@ -1,5 +1,11 @@
 @import "tailwindcss";
 
+html, body {
+  margin: 0;
+  padding: 01;
+  font-family: sans-serif;
+}
+
 :root {
   --background: #ffffff;
   --foreground: #171717;
@@ -14,8 +20,8 @@
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+    --background: #000000b0;
+    --foreground: #ffffff;
   }
 }
 

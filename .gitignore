@@ -1,0 +1,34 @@
+# --- Node.js / React / Next.js ---
+node_modules/
+.next/
+dist/
+build/
+.cache/
+*.log
+
+# --- Python ---
+__pycache__/
+*.py[cod]
+*.sqlite3
+env/
+venv/
+.venv/
+
+# --- Environment & Secrets ---
+.env
+.env.*
+
+# --- VS Code / IDE ---
+.vscode/
+.idea/
+
+# --- System Files ---
+.DS_Store
+Thumbs.db
+
+# --- Testing / Misc ---
+*.http
+coverage/
+*.bak
+*.swp
+*.tmp

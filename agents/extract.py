@@ -76,6 +76,10 @@ def summarize_and_review(url: str) -> dict:
             "Your objective is to ensure its accuracy, completeness of key information, neutrality, clarity, coherence, and conciseness.\n\n"
             "**The summary to review is provided directly as your input from the previous task.**\n\n"
             "Based on your rigorous review of THIS provided summary, create the FINAL, polished version. "
+             "Your summary MUST capture the main arguments, key facts, and conclusions. "
+            "**DO NOT RESPOND WITH ANYTHING OTHER THAN THE FINAL SUMMARY.**\n"
+            "DO NOT SAY OKAY, OR EXPLAIN ANYTHING, OR EVEN INTRODUCE THE ANSWER.\n"
+            "ONLY RETURN THE SUMMARY TEXT.\n\n"
             "If the input summary is already excellent, simply return it as is. If improvements are needed, revise it to meet all the criteria. "
             "**IMPORTANT: Your final output MUST BE ONLY the fully revised and polished summary text, ready for publication, with NO additional conversation, thoughts, or introductory/concluding remarks. Just the final summary itself.**"
         ),
